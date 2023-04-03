@@ -1,0 +1,49 @@
+npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
+npm i --save-dev @types/jsonwebtoken
+
+//////////////
+
+https://www.google.com/search?q=sallam&oq=sallam&aqs=chrome..69i57.1364j0j1&sourceid=chrome&ie=UTF-8
+https://www.google.com/search?q=book&oq=book&aqs=chrome..69i57.1364j0j1&sourceid=chrome&ie=UTF-8
+https://music.youtube.com/search?q=astronaut+in+the+ocean+official+video
+https://musicboard.app/tracks
+
+
+
+
+
+
+// const browser = await puppeteer.launch();
+
+// const page = await browser.newPage();
+
+// await page.goto(url);
+
+// let data: any = [];
+// let bool = true;
+// while (bool) {
+//   const documentHandle = await page.evaluateHandle(() => document);
+//   await page.evaluate(() => {
+//     window.scrollBy(0, window.innerHeight);
+//   });
+//   await new Promise((resolve) => setTimeout(resolve, 1000));
+//   //
+//   const newData = await page.evaluate((document: Document) => {
+//     const elements = document.querySelectorAll(".content-options-wrapper");
+
+//     return Array.from(elements).map((element: any) => {
+//       const title = element.querySelector("h6").textContent;
+//       const artist = element.querySelector("p").textContent;
+//       return { title, artist };
+//     });
+//   }, documentHandle);
+//   if (data.length >= 120) {
+//     bool = false;
+//   } else {
+//     data.length = 0;
+//     data.push(...newData);
+//   }
+// }
+// await browser.close();
+
+// return data;

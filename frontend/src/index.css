@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(215, 215, 215);
+  object-fit: cover !important;
+}
+.andika {
+  font-family: "Andika", sans-serif;
+  font-family: "Barlow", sans-serif;
+  line-height: 65px;
+}
+/*blure value: backdrop-blur-xl*/
+/*page padding: p-6*/
+/*div padding: p-3*/
+
+:root {
+  --bg-2: #121212;
+  --bg-3: #161616;
+  --light-bg: #202020;
+  --border-color: #202020;
+  --border-color-2: #262626;
+  --dark-text: #909090;
+  --white-bg: #999999;
+  --placeholder-text: #404040;
+  --light-hover: #171717;
+  --wrapper-1: #10101047;
+  --wrapper-2: #1010107b;
+  --shadow-bg: #101010a1;
+  --shadow-2-bg: #101010cc;
+  --primary-color-border: #163134;
+  --primary-color: #173436ba;
+  --primary-color-hover: #11282aa3;
+}
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+body {
+  background-color: #101010;
+}
