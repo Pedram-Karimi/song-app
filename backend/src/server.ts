@@ -28,7 +28,7 @@ app.use("/tracks/upload", trackRouter);
 // app.use("/artists", artistRouter);
 
 app.get("/", (req, res) => {
-  res.json("hello world");
+  res.json("hello world shalqam");
 });
 
 mongoose.set("strictQuery", false);

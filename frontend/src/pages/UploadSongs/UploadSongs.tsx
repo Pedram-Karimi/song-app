@@ -74,7 +74,7 @@ const UploadSongs: React.FC = () => {
             />
           </label>
           {base64 && <audio src={base64} controls />}
-          <audio ref={audioElementRef} />
+          <audio ref={audioElementRef} />`
           <input
             type="text"
             placeholder="Name of the Song"
